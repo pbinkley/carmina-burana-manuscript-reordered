@@ -429,6 +429,7 @@
     {
       "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/sequence/normal",
       "@type": "sc:Sequence",
+      "viewingHint": "paged",
       "canvases": [
         {
           "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/canvas/89",
