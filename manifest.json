@@ -431,6 +431,49 @@
       "@type": "sc:Sequence",
       "viewingHint": "paged",
       "canvases": [
+                {
+          "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-before-43r-1",
+          "@type": "sc:Canvas",
+          "label": "Missing quire(s)",
+          "width": 2728,
+          "height": 3973,
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves.png", 
+                "@type": "dctypes:Image", 
+                "height": 1200, 
+                "width": 800
+              }, 
+              "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-before-43r-1"
+            }
+          ]
+ 
+            
+        },
+        {
+            "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-before-43r-2",
+          "@type": "sc:Canvas",
+          "label": "Missing quire(s)",
+          "width": 2728,
+          "height": 3973,"images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves.png", 
+                "@type": "dctypes:Image", 
+                "height": 1200, 
+                "width": 800
+              }, 
+              "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-before-43r-2"
+            }
+          ]  
+        },
+        
+        
         {
           "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/canvas/89",
           "@type": "sc:Canvas",
@@ -6899,6 +6942,51 @@
           "width": 2781,
           "height": 3990
         },
+        
+        
+        {
+            "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-after-98v-1",
+          "@type": "sc:Canvas",
+          "label": "Missing quire",
+          "width": 2728,
+          "height": 3973,
+          "images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves.png", 
+                "@type": "dctypes:Image", 
+                "height": 1200, 
+                "width": 800
+              }, 
+              "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-after-98v-1"
+            }
+          ]
+ 
+            
+        },
+        {
+            "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-after-98v-2",
+          "@type": "sc:Canvas",
+          "label": "Missing quire",
+          "width": 2728,
+          "height": 3973,"images": [
+            {
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "resource": {
+                "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves.png", 
+                "@type": "dctypes:Image", 
+                "height": 1200, 
+                "width": 800
+              }, 
+              "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-after-98v-2"
+            }
+          ]
+            
+        },
+        
         {
           "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/canvas/201",
           "@type": "sc:Canvas",
