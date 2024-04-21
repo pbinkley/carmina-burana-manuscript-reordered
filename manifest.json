@@ -446,7 +446,16 @@
                 "@type": "dctypes:Image", 
                 "height": 1200, 
                 "width": 800
-              }, 
+              },
+              "thumbnail": [
+                {
+                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "type": "Image",
+                    "format": "image/png",
+                    "width": 200,
+                    "height": 300
+                }
+              ],
               "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-before-43r-1"
             }
           ]
@@ -468,6 +477,15 @@
                 "height": 1200, 
                 "width": 800
               }, 
+              "thumbnail": [
+                {
+                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "type": "Image",
+                    "format": "image/png",
+                    "width": 200,
+                    "height": 300
+                }
+              ],
               "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-before-43r-2"
             }
           ]  
@@ -6960,6 +6978,15 @@
                 "height": 1200, 
                 "width": 800
               }, 
+              "thumbnail": [
+                {
+                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "type": "Image",
+                    "format": "image/png",
+                    "width": 200,
+                    "height": 300
+                }
+              ],
               "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-after-98v-1"
             }
           ]
@@ -6981,6 +7008,15 @@
                 "height": 1200, 
                 "width": 800
               }, 
+              "thumbnail": [
+                {
+                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "type": "Image",
+                    "format": "image/png",
+                    "width": 200,
+                    "height": 300
+                }
+              ],
               "on": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/canvas/missing-after-98v-2"
             }
           ]
