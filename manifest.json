@@ -449,8 +449,8 @@
               },
               "thumbnail": [
                 {
-                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
-                    "type": "Image",
+                    "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "@type": "dctypes:Image",
                     "format": "image/png",
                     "width": 200,
                     "height": 300
@@ -479,8 +479,8 @@
               }, 
               "thumbnail": [
                 {
-                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
-                    "type": "Image",
+                    "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "@type": "dctypes:Image",
                     "format": "image/png",
                     "width": 200,
                     "height": 300
@@ -6980,8 +6980,8 @@
               }, 
               "thumbnail": [
                 {
-                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
-                    "type": "Image",
+                    "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "@type": "dctypes:Image",
                     "format": "image/png",
                     "width": 200,
                     "height": 300
@@ -7010,8 +7010,8 @@
               }, 
               "thumbnail": [
                 {
-                    "id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
-                    "type": "Image",
+                    "@id": "https://pbinkley.github.io/carmina-burana-manuscript-reordered/missingleaves-thumb.png",
+                    "@type": "dctypes:Image",
                     "format": "image/png",
                     "width": 200,
                     "height": 300
