@@ -9,11 +9,12 @@
     <link rel="shortcut icon" type="image/svg" href="/img/mirador-logo.svg"/>
   </head>
   <body>
-    <div id="mirador" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></div>
+    <h1>Carmina Burana Manuscript, Reordered</h1>
+    <div id="mirador" style="width: 100%; height: 95vh"></div>
     <script>document.write("<script type='text/javascript' src='https://unpkg.com/mirador@3.3.0/dist/mirador.min.js'><\/script>");</script>
     <script type="text/javascript">
       var params = new URL(document.location).searchParams;
-      var manifest = 'https://pbinkley.github.io/carmina-burana-manuscript-reordered/manifest.json';
+      var manifest = 'https://pbinkley.github.io/carmina-burana-manuscript-reordered/manifest-api3.json';
       var windows = [];
       if (manifest) {
         windows.push({ manifestId: manifest});
@@ -22,7 +23,6 @@
         id: 'mirador',
         windows: windows,
         catalog: [
-           { manifestId: 'https://pbinkley.github.io/carmina-burana-manuscript-reordered/manifest.json' },
            { manifestId: 'https://pbinkley.github.io/carmina-burana-manuscript-reordered/manifest-api3.json' },
            { manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest' },
         ]
