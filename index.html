@@ -13,19 +13,26 @@
     <div id="mirador" style="position: relative; width: 100%; height: 95vh; border: 1px solid grey; margin-bottom: 20px;"></div>
     <script>document.write("<script type='text/javascript' src='https://unpkg.com/mirador@3.3.0/dist/mirador.min.js'><\/script>");</script>
     <div style="font-size: large; max-width: 500px; clear: both; padding-left: 20px;">
-        <p>This is a IIIF demo project, about the <a href="https://www.digitale-sammlungen.de/en/view/bsb00085130?page=,1">manuscript of the <i>Carmina Burana</i></a>. The manuscript was rebound in the 18th century, and the contents were reordered to bring the famous illumination of the Wheel of Fortune to the front. In his book <i>Meetings with Remarkable Manuscripts</i>, Christopher du Hamel remarked: "it is not easy to form a mental picture of the original manuscript and its content while it is in the present order" (p.338). </p>
+        <p>This is a IIIF demo project, about the <a href="https://www.digitale-sammlungen.de/en/view/bsb00085130?page=,1">manuscript of the <i>Carmina Burana</i></a>. The manuscript was rebound in the 18th century, and the contents were reordered to bring the famous illumination of the Wheel of Fortune to the front. In his book <i>Meetings with Remarkable Manuscripts</i>, Christopher de Hamel remarked: "it is not easy to form a mental picture of the original manuscript and its content while it is in the present order" (p.338). </p>
         
-            <p>To make it easier to form this mental picture, this project is simply a IIIF manifest with the images restored to their original order (as listed by de Hamel in a footnote). I've also inserted placeholders to indicate where pages of the original are now missing.</p>
-            <p>To do this I've modified and republished the manifest published by the BSB under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-by-nc-sa license</a>. I've also converted it to Presentation API version 3, which seemed to solve some problems with Mirador's rendering.</p>
+            <p>To make it easier to form that mental picture, this project is simply a IIIF manifest with the images restored to their original order (as listed by de Hamel in a footnote). The reordered version is displayed alongside the current version. In the reordered version I've also inserted placeholders to indicate where pages of the original are now missing.</p>
+            <p>To do this I've modified and republished the manifest published by the Bayerische Staatsbibliothek under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-by-nc-sa license</a>. I've also converted it to Presentation API version 3, which seemed to solve some problems with Mirador's rendering.</p>
             <p>The result is that it is possible to view the illumination page (f.1r) opposite its original partner page (f.48v).</p>
             <p>By <a href="https://pbinkley.github.io/">Peter Binkley</a></p>
     </div>
     <script type="text/javascript">
       var params = new URL(document.location).searchParams;
       var manifest = 'https://pbinkley.github.io/carmina-burana-manuscript-reordered/manifest-api3.json';
+      var original = 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest';
       var windows = [{
           manifestId: manifest,
           canvasIndex: 14,
+          thumbnailNavigationPosition: 'far-bottom',
+      },
+      {
+          manifestId: original,
+          canvasIndex: 4,
+          thumbnailNavigationPosition: 'far-bottom',
       }];
       
       var miradorInstance = Mirador.viewer({
